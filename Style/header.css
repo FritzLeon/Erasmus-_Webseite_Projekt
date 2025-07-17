@@ -1,0 +1,33 @@
+header {
+  position: relative;
+}
+
+.header-img-fixed {
+  position: absolute;
+  top: 20px;
+  left: 32px;
+  width: 120px;
+  height: 72px;
+  object-fit: contain;
+  z-index: 10;
+}
+
+.top-right-nav {
+  position: absolute;
+  top: 20px;
+  right: 32px;
+  z-index: 10;
+}
+
+.header-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 48px;
+  min-height: 120px;
+}
+
+.header-center {
+  flex: 1 1 0;
+  text-align: center;
+}

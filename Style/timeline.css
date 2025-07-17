@@ -1,0 +1,40 @@
+.timeline {
+  position: relative;
+  margin: 40px 0;
+  padding-left: 30px;
+  border-left: 3px solid #fff;
+}
+
+.timeline-item {
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.timeline-date {
+  font-weight: bold;
+  color: #111; /* Schwarz */
+  margin-bottom: 4px;
+  margin-left: 20px;
+}
+
+.timeline-content {
+  background: #b3001b; /* Webseiten-Rot */
+  color: #fff;
+  padding: 10px 18px;
+  border-radius: 8px;
+  margin-left: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  display: inline-block;
+}
+
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  left: -13px;
+  top: 8px;
+  width: 16px;
+  height: 16px;
+  background: #fff;
+  border-radius: 50%;
+  border: 3px solid #b3001b;
+}

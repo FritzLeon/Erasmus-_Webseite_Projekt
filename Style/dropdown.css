@@ -1,0 +1,42 @@
+/*Hamburger button*/
+.menu-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 24px;
+  width: 30px;
+  cursor: pointer;
+}
+
+.menu-icon .bar {
+  height: 4px;
+  width: 100%;
+  background-color: #333;
+  margin: 3px 0;
+  border-radius: 2px;
+}
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 40px;
+  background: #222;
+  border-radius: 8px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  min-width: 140px;
+  z-index: 1000;
+}
+
+.dropdown-menu li a {
+  display: block;
+  padding: 12px 24px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.dropdown-menu li a:hover {
+  background: #444;
+}
